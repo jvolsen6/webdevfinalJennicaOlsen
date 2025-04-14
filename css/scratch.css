@@ -1,0 +1,102 @@
+p{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+#top{
+    text-decoration: underline;
+}
+
+
+
+body{
+    background-color: #E2DAD6;
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 20px;
+    border: 5px solid #6482AD;
+    margin: 20px;
+}
+
+
+.centered-list {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .centered-list ol {
+    list-style-position: outside;
+    padding-left: 1.5rem;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .centered-list ul {
+    list-style-position: outside;
+    padding-left: 2rem;
+  }
+
+
+
+  .header {
+    height: 350px; /* Make it taller so the image is visible */
+    background-image: url('../assets/img/track.avif');
+    background-size: cover;        /* Make image cover the area */
+    background-position: center;   /* Center the image */
+    background-repeat: no-repeat;  /* Prevent tiling */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; /* Optional: make header text pop */
+}
+
+
+.mainbody{
+    background-color: bisque;
+}
+
+.footer{
+    background-color: #00b4d8;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 1px;
+    right: 1px;
+    height: 25px;
+    padding-top: 15px
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%
+}
+
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+nav a:hover{
+    background-color: #00b4d8;
+    color: white;
+}
+
+
+
+  
